@@ -34,6 +34,9 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
+      env:
+        DD_WEBHOOK: ${{ secrets.webhook }}
+        DD_SECRET: ${{ secrets.secret }}
       run: |
         python rss.py
     - name: Commit
@@ -46,4 +49,4 @@ jobs:
       uses: ad-m/github-push-action@master 
       with:
         branch: main
-        github_token: ${{ secrets.GITHUB_TOKEN  }}
+        github_token: ${{ secrets.GIT_TOKEN  }}
