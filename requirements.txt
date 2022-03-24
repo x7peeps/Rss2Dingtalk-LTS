@@ -1,0 +1,6 @@
+feedparser
+DingtalkChatbot
+Peewee
+dateparser
+gevent
+psutil
