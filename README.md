@@ -1,6 +1,7 @@
 # rss2dingtalk
 ![rss2dingtalk](https://github.com/XTpeeps/Rss2Dingtalk-LTS/workflows/rss2dingtalk/badge.svg)
-
+![GitHub issues](https://img.shields.io/github/issues/x7peeps/Rss2Dingtalk-LTS)
+![GitHub all releases](https://img.shields.io/github/downloads/x7peeps/Rss2Dingtalk-LTS/total)
 ## Summary 
 rss2dingtalk是一个简单的用于同步rss订阅资讯到钉钉群机器人的脚本。常用于团队日常订阅资讯使用。
 ## Getting Started
